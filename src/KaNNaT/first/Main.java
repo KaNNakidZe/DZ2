@@ -53,6 +53,29 @@ public class Main {
 
 
     // Task # 4
+        int purposeWeight = 7;
+        int grWeight = 1000;
+        int grPurposeWeight = purposeWeight * grWeight;
+        System.out.println("Цель спортсмена похудеть на " + grPurposeWeight + " грамм!");
+
+        int oneOption = 250;
+        int oneOptionDay = grPurposeWeight / oneOption;
+        System.out.println("При похудении на 250 грамм в день, потребуется " + oneOptionDay + " дней!");
+
+        int twoOption = 500;
+        int twoOptionDay = grPurposeWeight / twoOption;
+        System.out.println("При похудении на 500 грамм в день, потребуется " + twoOptionDay + " дней!");
+
+        int arithmeticMeanWeight = (oneOption + twoOption) / 2;
+        System.out.println("Среднее арифмитическая потеря веса в день " + arithmeticMeanWeight + " грамм");
+
+        int arithmeticMeanDay = grPurposeWeight / arithmeticMeanWeight;
+        System.out.println("Среднее арифмитическое количество дней дня похудения равно " + arithmeticMeanDay + " дней");
+
+    // Task # 5
+
+
+
 
 
 
