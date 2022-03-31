@@ -16,6 +16,13 @@ public class Main {
         System.out.println(dollar);
 
     // Задание № 2
+        double boxerFirst = 78.2;
+        double boxerSecond = 82.7;
+        double ollBoxersWeight = boxerFirst + boxerSecond;
+        System.out.println("Общий вес боксеров " + ollBoxersWeight + " кг!");
+        double differenceWeight = boxerSecond - boxerFirst;
+        System.out.println("Разница в весе боксеров " + differenceWeight + " кг!");
+
 
 
 
