@@ -74,19 +74,39 @@ public class Main {
 
     // Task # 5
 
-        int salaryMasha = 67760;
-        int increaseMasha = 10;
-        int increaseSalaryMasha = (salaryMasha / 100) * increaseMasha;
-        System.out.println("Зарплата Маши будут увеличена на " + increaseSalaryMasha + " руб.");
+        double salaryMasha = 67760;
+        double increaseMasha = 10;
+        double increaseSalaryMasha = (salaryMasha / 100) * increaseMasha;
+        System.out.println("Зарплата Маши будет увеличена на " + increaseSalaryMasha + " руб.");
 
-        int newsalaryMasha = salaryMasha + increaseSalaryMasha;
+        double newsalaryMasha = salaryMasha + increaseSalaryMasha;
         System.out.println("Зарплата Маши после повышения будет равна " + newsalaryMasha + " руб.");
 
-        int expenditureSalaryMasha = increaseSalaryMasha * 12;
+        double expenditureSalaryMasha = increaseSalaryMasha * 12;
         System.out.println("Расходы на увелечение зарплаты Маши за год составят " + expenditureSalaryMasha + " руб.");
 
+        double salaryDenis = 83690;
+        double increaseDenis = 10;
+        double increaseSalaryDenis = (salaryDenis / 100) * increaseDenis;
+        System.out.println("Зарплата Дениса будет увеличена на " + increaseSalaryDenis + " руб.");
+
+        double newsalaryDenis = salaryDenis + increaseSalaryDenis;
+        System.out.println("Зарплата Дениса после повышения будет равна " + newsalaryDenis + " руб.");
+
+        double expenditureSalaryDenis = increaseSalaryDenis * 12;
+        System.out.println("Расходы на увелечение зарплаты Дениса за год составят " + expenditureSalaryDenis + " руб.");
 
 
+        double salaryKristina = 76230;
+        double increaseKristina = 10;
+        double increaseSalaryKristina= (salaryKristina / 100) * increaseKristina;
+        System.out.println("Зарплата Кристины будет увеличена на " + increaseSalaryKristina + " руб.");
+
+        double newsalaryKristina = salaryKristina + increaseSalaryKristina;
+        System.out.println("Зарплата Кристины после повышения будет равна " + newsalaryKristina + " руб.");
+
+        double expenditureSalaryKristina = increaseSalaryKristina * 12;
+        System.out.println("Расходы на увелечение зарплаты Кристины за год составят " + expenditureSalaryKristina + " руб.");
 
 
 
