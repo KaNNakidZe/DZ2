@@ -74,6 +74,17 @@ public class Main {
 
     // Task # 5
 
+        int salaryMasha = 67760;
+        int increaseMasha = 10;
+        int increaseSalaryMasha = (salaryMasha / 100) * increaseMasha;
+        System.out.println("Зарплата Маши будут увеличена на " + increaseSalaryMasha + " руб.");
+
+        int newsalaryMasha = salaryMasha + increaseSalaryMasha;
+        System.out.println("Зарплата Маши после повышения будет равна " + newsalaryMasha + " руб.");
+
+        int expenditureSalaryMasha = increaseSalaryMasha * 12;
+        System.out.println("Расходы на увелечение зарплаты Маши за год составят " + expenditureSalaryMasha + " руб.");
+
 
 
 
